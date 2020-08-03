@@ -1,8 +1,8 @@
 <?php
 
-require_once('classes/Httpclient.php');
+require_once('classes/httpclient.php');
 
-use CoreDNA\Httpclient as Httpclient;
+use CoreDNA\HttpClient as HttpClient;
 
 //API endPoint for getting Token and Posting Data
 $url = 'https://www.coredna.com/assessment-endpoint.php';
@@ -10,7 +10,7 @@ $url = 'https://www.coredna.com/assessment-endpoint.php';
 $data = array("name" => "Subodh Sharma", "email" => "subodhsharma2605@gmail.com", "url" => "https://github.com/sdvats/http_client.git");
 
 //Initializing Httpclient Object
-$client = new Httpclient;
+$client = new HttpClient;
 
 //Setting custom header token for getting token
 $headerToken = "Content-type: application/x-www-form-urlencoded\r\n";

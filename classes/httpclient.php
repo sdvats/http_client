@@ -9,7 +9,7 @@ use Exception;
  * @package CoreDNA
  * Httpclient class has two methods, One to get the token and another to post the json data to the api endpoint
  */
-class Httpclient
+class HttpClient
 {
 
     /**
